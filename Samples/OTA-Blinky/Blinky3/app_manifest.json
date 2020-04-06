@@ -1,0 +1,14 @@
+{
+  "SchemaVersion": 1,
+  "Name": "AzureSphereBlink3",
+  "ComponentId": "fb4d381e-4d14-4c16-9992-42ecb2939031",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedConnections": [],
+    "Gpio": ["$AVNET_AESMS_PIN12_GPIO9", "$AVNET_AESMS_PIN14_GPIO12", "$AVNET_AESMS_PIN13_GPIO10", "$AVNET_AESMS_PIN15_GPIO13" ],
+    "Uart": [],
+    "WifiConfig": false
+  },
+  "ApplicationType": "Default"
+}

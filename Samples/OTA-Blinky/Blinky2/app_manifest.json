@@ -1,0 +1,14 @@
+{
+  "SchemaVersion": 1,
+  "Name": "AzureSphereBlink_V2",
+  "ComponentId": "F50E678C-4710-49D7-AF5D-FDB447B208D1",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedConnections": [],
+    "Gpio": [ "$AVNET_AESMS_PIN12_GPIO9", "$AVNET_AESMS_PIN14_GPIO12" ],
+    "Uart": [],
+    "WifiConfig": false
+  },
+  "ApplicationType": "Default"
+}
